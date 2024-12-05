@@ -145,5 +145,29 @@
         $('#modaLogin').modal('show')
     })
 
+    // $.ajax({
+    //     url: 'http://127.0.0.1:8000/api/prizeAvailable',
+    //     method: 'GET',
+    //     success: function (response) {
+
+    //         if (response.response) {
+                
+    //             $.map(response.data, function(value, index) {
+    //                 const img = `http://127.0.0.1:8000${value.imagePrize}`
+    //                 const imgElement = `<img src="${img}" alt="Imagem carregada" style="max-width: 300px;"/>`;
+    //                 $('#imageContainer').html(imgElement); // Insere na div
+    //             });
+            
+    //         } else {
+            
+    //             alert('Erro ao carregar a imagem!');
+            
+    //         }
+    //     },
+    //     error: function () {
+    //         alert('Houve um problema na requisição.');
+    //     }
+    // });
+
 })(jQuery);
 
